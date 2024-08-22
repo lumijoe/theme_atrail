@@ -18,13 +18,13 @@ function my_login_logo()
 		.login h1 a {
 			background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/common/head-logo.svg);
 			width: 120px;
-			height: 80px;
+			height: 90px;
 			background-size: 120px;
 		}
 	</style>
 	<script type="text/javascript">
 		document.addEventListener('DOMContentLoaded', function() {
-			document.querySelector('#login h1 a').setAttribute('href', 'https://lkcodetest.sakura.ne.jp/atrail/');
+			document.querySelector('#login h1 a').setAttribute('href', 'https://atrail.co.jp/');
 		});
 	</script>
 <?php
