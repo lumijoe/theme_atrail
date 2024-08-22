@@ -94,6 +94,7 @@ add_image_size('contribution', 557, 280, true);
 add_image_size('front-contribution', 295, 295, true);
 
 // 企業情報・店舗情報一覧画像用のサイズ設定
+// トップページ事業案内画像用のサイズ設定
 add_image_size('common', 465, 252, true);
 
 // 各ページのメイン画像用のサイズ設定
