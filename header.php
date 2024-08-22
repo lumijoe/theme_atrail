@@ -40,7 +40,7 @@
     <!-- front-page.phpの場合 -->
     <?php if (is_front_page()): ?>
       <section class="section-contents" id="keyvisual">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-page-dummy.png" alt="">
+        <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual.jpg" alt="">
         <div class="wrapper">
           <h1 class="site-title">Your Style</h1>
           <p class="site-caption">(ダミー)自由な発想の建物で<br>暮らしに自由を</p>
