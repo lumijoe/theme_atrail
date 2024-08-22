@@ -19,11 +19,12 @@
       <div class="header-inner">
         <div class="flexrowYcenter">
           <div class="logo">
-            <a class="logo-header" href="<?php echo esc_url(home_url()); ?>">
-              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.png" class="fixed-logo" alt="ATRAIL" />
-            </a>
+            <h1>
+              <a class="logo-header" href="<?php echo esc_url(home_url()); ?>">
+                <img src="https://atrail.co.jp/wp-content/uploads/images/logo3@2x.png" class="fixed-logo" alt="ATRAIL" style="max-width:40%;">
+              </a>
+            </h1>
           </div>
-          <h1>アトレイル株式会社</h1>
         </div>
         <div style="display:flex; flex-direction: row;">
           <div>
