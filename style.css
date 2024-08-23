@@ -347,7 +347,7 @@ cta
 news
 ****************/
 .news-body {
-  height: 52px;
+  height: auto;
 }
 .maxw600 {
   max-width: 600px;
