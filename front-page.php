@@ -187,7 +187,7 @@
 <!-- cta -->
 <section class="l-cta">
   <button class="p-cta-btn">
-    <a href="https://lkcodetest.sakura.ne.jp/atrail/contact">お問い合わせ→</a>
+    <a href="https://atrail.co.jp/contact/">お問い合わせ→</a>
   </button>
 </section>
 
@@ -302,7 +302,7 @@
 <!----------------------------------
         form
 ----------------------------------->
-<?php echo apply_shortcodes('[mwform_formkey key="263"]'); ?>
+<?php echo apply_shortcodes('[mwform_formkey key="132"]'); ?>
 
 
 
