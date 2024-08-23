@@ -1,4 +1,12 @@
 <?php
+
+function remove_decoding_async_attribute($html) {
+    // decoding="async" 属性を削除
+    $html = str_replace('decoding="async"', '', $html);
+    return $html;
+}
+add_filter('wp_get_attachment_image', 'remove_decoding_async_attribute');
+
 function my_enqueue_scripts()
 {
 	$uri = esc_url(get_template_directory_uri());
