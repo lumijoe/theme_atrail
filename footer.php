@@ -58,7 +58,7 @@
   <nav class="global-nav nav-list">
     <?php
     wp_nav_menu([
-      'theme_location' => 'place_global',
+      'theme_location' => 'place_footer',
       'container' => false,
     ]);
     ?>
