@@ -157,6 +157,7 @@
           <article class="article-card">
             <a class="card-link" href="<?php the_permalink(); ?>">
               <div class="card-inner">
+                <!-- <div class="card-image"><?php the_post_thumbnail(''); ?></div> -->
                 <div class="card-image"><?php the_post_thumbnail('front-contribution'); ?></div>
                 <div class="card-body">
                   <p class="title"><?php the_title(); ?></p>
