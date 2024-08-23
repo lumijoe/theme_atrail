@@ -53,7 +53,7 @@
           <main>
             <div class="page-contents">
               <div class="page-head">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-page-dummy.png" alt="">
+               <?php echo get_main_image(); ?>
 
                 <div class="wrapper">
                   <span class="page-title-en"><?php echo get_main_en_title(); ?></span>

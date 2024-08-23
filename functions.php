@@ -51,6 +51,7 @@ register_nav_menus(array(
 	'place_global' => ' グローバル',
 	'place_footer' => ' フッターナビ',
 ));
+
 // ////////////////////////////////////
 // メイン画像上にテンプレートごとの文字列を表示
 // ////////////////////////////////////
@@ -116,7 +117,9 @@ add_image_size('detail', 1100, 330, true);
 // 検索一覧画像用のサイズ設定
 add_image_size('search', 168, 168, true);
 
+// ///////////////////////////////
 // 各テンプレートごとのメイン画像を表示
+// ///////////////////////////////
 function get_main_image()
 {
 	if (is_page() || is_singular('daily_contribution')) :
