@@ -1,5 +1,7 @@
 <?php
-
+// ///////////////////////////////////
+// 画像解像度を綺麗にするためのremove
+// ///////////////////////////////////
 function remove_decoding_async_attribute($html) {
     // decoding="async" 属性を削除
     $html = str_replace('decoding="async"', '', $html);
@@ -7,6 +9,9 @@ function remove_decoding_async_attribute($html) {
 }
 add_filter('wp_get_attachment_image', 'remove_decoding_async_attribute');
 
+// ///////////////////////////////////
+// スタイルやjsの適用
+// ///////////////////////////////////
 function my_enqueue_scripts()
 {
 	$uri = esc_url(get_template_directory_uri());
