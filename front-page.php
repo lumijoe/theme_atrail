@@ -252,8 +252,6 @@
 <!----------------------------------
         company
 ----------------------------------->
-company
-        ----------------------------------->
     <section class="l-company" id="company">
         <div class="l-company-inner l-section-inner-plf--20px l-section-inner">
             <h3 class="p-section_ttl--pb32">会社概要</h3>
