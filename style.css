@@ -5159,6 +5159,7 @@ input[type="submit"]::after {
   margin-top: 2.5%;
   padding-bottom: 4%;
   border-bottom: 1px solid #d0d0d0;
+  height: auto;
 }
 
 .single-daily_contribution .news .news-body p {
