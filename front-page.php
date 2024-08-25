@@ -290,12 +290,4 @@
 </section>
 
 
-<!-- お問い合わせ -->
-<!----------------------------------
-        form
------------------------------------>
-<?php echo apply_shortcodes('[mwform_formkey key="132"]'); ?>
-
-
-
 <?php get_footer(); ?>

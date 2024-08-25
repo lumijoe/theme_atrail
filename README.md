@@ -260,9 +260,10 @@ p タグ不要の追加
         </div>
 # theme_atrail
 
-
 ## 会社概要　固定ページ繰り返しループ
+
 0824・0935
+
 <!-- <section class="section-contents" id="company">
   <div class="wrapper maxw600">
     <?php
@@ -308,3 +309,11 @@ p タグ不要の追加
   </div>
 </section> -->
 <!-- ↑ -->
+
+## お問い合わせ
+
+<!-- お問い合わせ -->
+<!----------------------------------
+        form
+----------------------------------->
+<?php echo apply_shortcodes('[mwform_formkey key="132"]'); ?>
