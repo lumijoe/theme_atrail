@@ -64,7 +64,7 @@
     ?>
   </nav>
   <p class="copyright">
-    <small class="copyright-text">&#169; ATRAIL</small>
+    <small class="copyright-text">&#169; ATRAIL CO.,LTD アトレイル株式会社 </small>
   </p>
 </div>
 

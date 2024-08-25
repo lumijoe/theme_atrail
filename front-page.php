@@ -98,14 +98,14 @@
   <section class="l-gallery-section">
     <ul class="l-section-inner l-section-inner-plf--20px l-gallery-section-inner">
       <li class="l-gallery">
-        <img src="https://dummyimage.com/400x310/d9d9d9/fff" alt="" srcset="">
-        <p>（ダミー）私たちは、暮らしに自由を感じ、理想の住まいを見つけるお手伝いを致します。
+        <img src="https://atrail.co.jp/wp-content/uploads/images/container-01@2x.jpg" alt="" srcset="">
+        <p>私たちは、暮らしに自由を感じ、理想の住まいを見つけるお手伝いを致します。
           自由な発見、広がる空間、理想の暮らし。それが私たちの約束です。豊富な物件ラインナップと専門的な知識を持ち、お客様の夢を形にします。自分らしいライフスタイルを見つけましょう。
           ご要望に合わせて柔軟なプランを提供し、理想の住まいに出会えるよう努めます。未来の住まいに、自由な可能性を感じさせる物件がきっと見つかります。新しい一歩を踏み出すなら、私たちにおかませください。自由な未来、理想の住まいを一緒に見つけましょう。「暮らしに自由を」、それが私たちのコミットメントです。</p>
       </li>
       <li class="l-gallery">
-        <img src="https://dummyimage.com/400x310/d9d9d9/fff" alt="" srcset="">
-        <p>（ダミー）コンテナハウスは、船舶やトラックで輸送されるためのコンテナを再利用して建設された住宅や建築物の形態です。持続可能でコスト効率が高く、迅速に建設できる選択肢として注目されています。
+        <img src="https://atrail.co.jp/wp-content/uploads/images/container-02@2x.jpg" alt="" srcset="">
+        <p>コンテナハウスは、船舶やトラックで輸送されるためのコンテナを再利用して建設された住宅や建築物の形態です。持続可能でコスト効率が高く、迅速に建設できる選択肢として注目されています。
           1. コスト効率 : 新しい建材を使用するよりも比較的低コストです。
           2. 迅速な建設 : 短期間で住宅や建築物を完成させることが可能です。 􀀃. モジュール性と拡張性 : コンテナは標準化されておりモジュールとして簡単に組み立てられ、柔軟なプランニングが可能です。
           3. 耐久性と強度 : コンテナは非常に強固で耐久性があります。これによ
@@ -116,14 +116,14 @@
         </p>
       </li>
       <li class="l-gallery">
-        <img src="https://dummyimage.com/400x310/d9d9d9/fff" alt="" srcset="">
-        <p>（ダミー）私たちは、暮らしに自由を感じ、理想の住まいを見つけるお手伝いを致します。
+        <img src="https://atrail.co.jp/wp-content/uploads/images/container-01@2x.jpg" alt="" srcset="">
+        <p>私たちは、暮らしに自由を感じ、理想の住まいを見つけるお手伝いを致します。
           自由な発見、広がる空間、理想の暮らし。それが私たちの約束です。豊富な物件ラインナップと専門的な知識を持ち、お客様の夢を形にします。自分らしいライフスタイルを見つけましょう。
           ご要望に合わせて柔軟なプランを提供し、理想の住まいに出会えるよう努めます。未来の住まいに、自由な可能性を感じさせる物件がきっと見つかります。新しい一歩を踏み出すなら、ウェルホーム不動産がそばにいます。自由な未来、理想の住まいを一緒に見つけましょう。「暮らしに自由を」、それが私たちのコミットメントです。</p>
       </li>
       <li class="l-gallery">
-        <img src="https://dummyimage.com/400x310/d9d9d9/fff" alt="" srcset="">
-        <p>（ダミー）コンテナハウスは、船舶やトラックで輸送されるためのコンテナを再利用して建設された住宅や建築物の形態です。持続可能でコスト効率が高く、迅速に建設できる選択肢として注目されています。
+        <img src="https://atrail.co.jp/wp-content/uploads/images/container-02@2x.jpg" alt="" srcset="">
+        <p>コンテナハウスは、船舶やトラックで輸送されるためのコンテナを再利用して建設された住宅や建築物の形態です。持続可能でコスト効率が高く、迅速に建設できる選択肢として注目されています。
           1. コスト効率 : 新しい建材を使用するよりも比較的低コストです。
           2. 迅速な建設 : 短期間で住宅や建築物を完成させることが可能です。 􀀃. モジュール性と拡張性 : コンテナは標準化されておりモジュールとして簡単に組み立てられ、柔軟なプランニングが可能です。
           3. 耐久性と強度 : コンテナは非常に強固で耐久性があります。これによ
@@ -252,11 +252,12 @@
 <!----------------------------------
         company
 ----------------------------------->
-<section class="l-company" id="company">
-  <div class="l-company-inner l-section-inner-plf--20px l-section-inner">
-    <h3 class="p-section_ttl--pb32">会社概要</h3>
+<section class="section-contents" id="company">
+  <div class="wrapper maxw600">
+    <span class="section-title-en"></span>
+    <h2 class="section-title" style="margin-bottom:30px;">会社概要</h2>
     <div class="l-company-table">
-      <table>
+      <table style="margin-top:4%!important;">
         <tr>
           <th>社名</th>
           <td>アトレイル株式会社</td>
@@ -267,7 +268,7 @@
         </tr>
         <tr>
           <th>本社所在地</th>
-          <td>〒663-8227 兵庫県西宮市今津出在家 6 番 1 号</td>
+          <td>〒533-0033 大阪市東淀川区東中島1丁目21番3号</td>
         </tr>
         <tr>
           <th>TEL</th>
@@ -279,7 +280,7 @@
         </tr>
         <tr>
           <th>設立</th>
-          <td>2023年</td>
+          <td>2024年</td>
         </tr>
         <tr>
           <th>取引銀行</th>
