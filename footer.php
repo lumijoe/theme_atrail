@@ -54,7 +54,7 @@
 
 
 <!-- nav -->
-<div class="l-nav">
+<div class="l-nav footer">
   <nav class="global-nav nav-list">
     <?php
     wp_nav_menu([
@@ -67,8 +67,6 @@
     <small class="copyright-text">&#169; ATRAIL CO.,LTD アトレイル株式会社 </small>
   </p>
 </div>
-
-
 
 <?php wp_footer(); ?>
 </body>

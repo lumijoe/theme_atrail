@@ -314,6 +314,11 @@ div + h1 {
 *************** */
 .nav-list {
   padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #343434;
+}
+.nav-list a {
+  color: #fff !important;
 }
 .nav-list ul {
   display: flex !important;
@@ -324,11 +329,14 @@ div + h1 {
 .nav-list ul li {
   padding-left: 15px;
   padding-right: 15px;
-  border-left: 1px solid #232323;
+  border-left: 1px solid #fff;
 }
 .nav-list ul li:first-child {
   /* padding-left: 0px; */
   border-left: none;
+}
+.mega-menu-wrap-place_global {
+  background-color: #343434;
 }
 /*************** 
 cta
@@ -358,8 +366,13 @@ cta
 
 .copyright {
   text-align: center;
-  padding-top: 23px;
-  padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #343434;
+  color: #fff;
+}
+.footer .nav-list {
+  padding-bottom: 0px;
 }
 /****************
 news
@@ -699,6 +712,8 @@ form
     min-width: 80px;
     font-size: 1.4rem;
   }
+  
+  .
 }
 
 #company {
@@ -1077,6 +1092,9 @@ form
 
   #pg-access .access-detail dl dd span + span {
     margin-top: 0;
+  }
+  #mega-menu-wrap-place_global {
+    background: #343434!important;
   }
 }
 
@@ -2778,7 +2796,8 @@ form
 
 #pg-news .main-container .main-wrapper {
   margin: 0 auto;
-  padding: 4% 0 120px;
+  padding: 4% 0;
+  /* padding: 4% 0 120px; */
   max-width: 960px;
 }
 
