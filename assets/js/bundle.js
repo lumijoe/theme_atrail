@@ -31,8 +31,14 @@ function activeNav() {
   	url = base_url + '/contribution/';
   	jQuery('.global-nav a[href="'+url+'"]').addClass('active');
   }
-  else if( global_menu_path == 'archives' && ['pg-news', 'pg-newsDetail'].includes(page_id) ) {
-  	url = base_url + '/archives/category/news/';
+  // else if( global_menu_path == 'archives' && ['pg-news', 'pg-newsDetail'].includes(page_id) ) {
+  // 	url = base_url + '/archives/category/news/';
+  // 	jQuery('.global-nav a[href="'+url+'"]').addClass('active');
+  // }
+
+  // ↑newsでなくinfoを使用した場合
+  else if( global_menu_path == 'archives' && ['pg-info', 'pg-infoDetail'].includes(page_id) ) {
+  	url = base_url + '/archives/category/info/';
   	jQuery('.global-nav a[href="'+url+'"]').addClass('active');
   }
   else if( url.match(global_menu_path) ) {

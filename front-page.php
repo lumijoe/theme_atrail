@@ -194,9 +194,9 @@
 
 
 <!-- お知らせ -->
-<section class="section-contents" id="news">
+<section class="section-contents" id="info">
   <div class="wrapper maxw600">
-    <?php $term_obj = get_term_by('slug', 'news', 'category'); ?>
+    <?php $term_obj = get_term_by('slug', 'info', 'category'); ?>
     <span class="section-title-en"><?php the_field('english_title'); ?></span>
     <h2 class="section-title"><?php echo $term_obj->name; ?></h2>
     <p class="section-lead"><?php echo $term_obj->description; ?></p>
@@ -207,7 +207,7 @@
           <div class="main-wrapper">
             <div class="newsLists">
               <?php
-              $news_posts = get_specific_posts('post', 'category', 'news', 4);
+              $news_posts = get_specific_posts('post', 'category', 'info', 4);
               if ($news_posts->have_posts()):
                 while ($news_posts->have_posts()): $news_posts->the_post();
               ?>
@@ -247,49 +247,47 @@
 </section>
 
 
-
-
 <!-- 会社概要 -->
 <!----------------------------------
         company
 ----------------------------------->
-    <section class="l-company" id="company">
-        <div class="l-company-inner l-section-inner-plf--20px l-section-inner">
-            <h3 class="p-section_ttl--pb32">会社概要</h3>
-            <div class="l-company-table">
-                <table>
-                    <tr>
-                        <th>社名</th>
-                        <td>アトレイル株式会社</td>
-                    </tr>
-                    <tr>
-                        <th>代表者</th>
-                        <td>代表取締役 西田 博</td>
-                    </tr>
-                    <tr>
-                        <th>本社所在地</th>
-                        <td>〒663-8227 兵庫県西宮市今津出在家 6 番 1 号</td>
-                    </tr>
-                    <tr>
-                        <th>TEL</th>
-                        <td>00-0000-0000</td>
-                    </tr>
-                    <tr>
-                        <th>資本金</th>
-                        <td>1,000,000 円</td>
-                    </tr>
-                    <tr>
-                        <th>設立</th>
-                        <td>2023年</td>
-                    </tr>
-                    <tr>
-                        <th>取引銀行</th>
-                        <td>●●●●銀行 ●●支店</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </section>
+<section class="l-company" id="company">
+  <div class="l-company-inner l-section-inner-plf--20px l-section-inner">
+    <h3 class="p-section_ttl--pb32">会社概要</h3>
+    <div class="l-company-table">
+      <table>
+        <tr>
+          <th>社名</th>
+          <td>アトレイル株式会社</td>
+        </tr>
+        <tr>
+          <th>代表者</th>
+          <td>代表取締役 西田 博</td>
+        </tr>
+        <tr>
+          <th>本社所在地</th>
+          <td>〒663-8227 兵庫県西宮市今津出在家 6 番 1 号</td>
+        </tr>
+        <tr>
+          <th>TEL</th>
+          <td>00-0000-0000</td>
+        </tr>
+        <tr>
+          <th>資本金</th>
+          <td>1,000,000 円</td>
+        </tr>
+        <tr>
+          <th>設立</th>
+          <td>2023年</td>
+        </tr>
+        <tr>
+          <th>取引銀行</th>
+          <td>●●●●銀行 ●●支店</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section>
 
 
 <!-- お問い合わせ -->

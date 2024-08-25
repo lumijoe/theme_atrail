@@ -2629,7 +2629,62 @@ form
   }
 }
 
-#news {
+#info {
+  background-image: url("../images/bg-section-news.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#info .news {
+  margin: 6% auto 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-width: 960px;
+  text-align: left;
+}
+
+#info .news-item {
+  padding: 10px 3.125%;
+  width: 33.33333%;
+  letter-spacing: 0.2em;
+}
+
+#info .news-item:not(:first-child) {
+  border-left: 1px solid #d0d0d0;
+}
+
+#info .news-item .detail-link {
+  text-decoration: none;
+}
+
+#info .news-item .detail-link:hover .title,
+#info .news-item .detail-link:hover .news-text {
+  text-decoration: underline;
+}
+
+#info .news-item .time {
+  font-size: 1.4rem;
+  color: #787878;
+}
+
+#info .news-item .title {
+  margin-top: 4px;
+  font-size: 1.8rem;
+}
+
+#info .news-item .news-text {
+  margin-top: 22px;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+/* #news {
   background-image: url("../images/bg-section-news.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -2683,7 +2738,7 @@ form
   margin-top: 22px;
   font-size: 1.4rem;
   line-height: 2;
-}
+} */
 
 #pg-news .main-container {
   width: 100%;
@@ -5126,6 +5181,14 @@ input[type="submit"]::after {
   .bread_crumb {
     padding: 0;
   }
+}
+
+.single-daily_contribution .main-container {
+  width: 100%;
+  background-image: url(../images/bg-news.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 
 .single-daily_contribution .main-container {
