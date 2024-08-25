@@ -40,10 +40,11 @@
     <!-- front-page.phpの場合 -->
     <?php if (is_front_page()): ?>
       <section class="section-contents" id="keyvisual">
-        <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual.jpg" alt="">
+        <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-02.jpg" alt="">
         <div class="wrapper">
-          <h1 class="site-title">Your Style</h1>
-          <p class="site-caption">(ダミー)自由な発想の建物で<br>暮らしに自由を</p>
+          <!-- <h1 class="site-title">your style</h1> -->
+          <h1 class="site-caption">コンテナで、かなえる。<br>自由を、つくる。</h1>
+          <img src="https://atrail.co.jp/wp-content/uploads/images/logo-white@2x.png" alt="" srcset="" class="logo-img">
         </div>
       </section>
       <!-- front-page.php以外のphpページの場合 -->
@@ -53,7 +54,7 @@
           <main>
             <div class="page-contents">
               <div class="page-head">
-               <?php echo get_main_image(); ?>
+                <?php echo get_main_image(); ?>
 
                 <div class="wrapper">
                   <span class="page-title-en"><?php echo get_main_en_title(); ?></span>

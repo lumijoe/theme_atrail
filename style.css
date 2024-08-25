@@ -2617,10 +2617,13 @@ form
 
 #keyvisual .wrapper .site-caption {
   font-family: "Noto Sans Japanese", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
+  padding-bottom: 50px;
   letter-spacing: 0.2em;
 }
-
+#keyvisual .wrapper .logo-img {
+  max-width: 59%;
+}
 /* --------------------------------
  * smart phone
  * -------------------------------- */
@@ -2646,7 +2649,11 @@ form
 
   #keyvisual .wrapper .site-caption {
     margin-top: 8px;
-    font-size: 1.3rem;
+    font-size: clamp(1.2rem, 5vw, 2.3rem);
+    padding-bottom: 20px;
+  }
+  #keyvisual .wrapper .logo-img {
+    max-width: 25%;
   }
 }
 
