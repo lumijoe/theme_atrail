@@ -2,10 +2,11 @@
 // ///////////////////////////////////
 // 画像解像度を綺麗にするためのremove
 // ///////////////////////////////////
-function remove_decoding_async_attribute($html) {
-    // decoding="async" 属性を削除
-    $html = str_replace('decoding="async"', '', $html);
-    return $html;
+function remove_decoding_async_attribute($html)
+{
+	// decoding="async" 属性を削除
+	$html = str_replace('decoding="async"', '', $html);
+	return $html;
 }
 add_filter('wp_get_attachment_image', 'remove_decoding_async_attribute');
 

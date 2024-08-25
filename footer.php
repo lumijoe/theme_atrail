@@ -54,7 +54,7 @@
 
 
 <!-- nav -->
-<div class=l-nav>
+<div class="l-nav">
   <nav class="global-nav nav-list">
     <?php
     wp_nav_menu([
@@ -69,7 +69,6 @@
 </div>
 
 
-<!-- nav btn -->
 
 <?php wp_footer(); ?>
 </body>

@@ -317,3 +317,5 @@ p タグ不要の追加
         form
 ----------------------------------->
 <?php echo apply_shortcodes('[mwform_formkey key="132"]'); ?>
+
+linear-gradient(to right, #0f844c, #127dd6)
