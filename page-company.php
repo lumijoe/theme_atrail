@@ -4,8 +4,23 @@ Template Name: company
 */
 get_header();
 ?>
+<!-- 代表挨拶 -->
+<section class="section-contents" id="company-about">
+  <div class="wrapper maxw600">
+    <span class="section-title-en"></span>
+    <h2 class="section-title" style="margin-bottom:30px;">代表挨拶</h2>
+    <div>
+      <h3>コンテナです</h3>
+      <p>アトレイル株式会社</p>
+      <p>代表取締役 〇〇〇〇</p>
+      <hr>
+      <p>コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。コンテナに興味をお持ちいただきありがとうございます。</p>
+    </div>
+  </div>
+</section>
 
-<section class="section-contents" id="company">
+<!-- 会社概要 -->
+<section class="section-contents" id="company-about">
   <div class="wrapper maxw600">
     <span class="section-title-en"></span>
     <h2 class="section-title" style="margin-bottom:30px;">会社概要</h2>
@@ -43,24 +58,8 @@ get_header();
     </div>
   </div>
 </section>
-</div>
-<!-- 
-<div class="page-inner">
-  <p>テsつ</p>
-  <div class="page-main" id="pg-common">
-    <ul class="commons">
-      <?php
-      $common_pages = get_child_pages();
-      if ($common_pages->have_posts()):
-        while ($common_pages->have_posts()): $common_pages->the_post();
-          get_template_part('content-common');
-        endwhile;
-        wp_reset_postdata();
-      endif;
-      ?>
-    </ul>
-  </div>
-</div> -->
+
+
 
 
 
