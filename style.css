@@ -430,20 +430,20 @@ company
   text-overflow: ellipsis;
 }
 .maxw100vw {
-  max-width:100vw;
+  max-width: 100vw;
   margin: 0 auto;
 }
 .message-img {
   max-width: 40%;
+  padding-left: 20px;
 }
 
 /* *******************
 privacy-policy
 *********************/
 .lead-inner p {
-  text-align: left!important;
+  text-align: left !important;
 }
-
 
 /* *******************
 form
@@ -728,8 +728,11 @@ form
     min-width: 80px;
     font-size: 1.4rem;
   }
-  
-  .
+}
+@media screen and (max-width: 1230px) {
+  .message-img {
+    max-width: 40%;
+  }
 }
 
 #company {
@@ -1110,7 +1113,7 @@ form
     margin-top: 0;
   }
   #mega-menu-wrap-place_global {
-    background: #343434!important;
+    background: #343434 !important;
   }
 }
 
