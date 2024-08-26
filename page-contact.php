@@ -2,7 +2,7 @@
 /*
 Template Name: contact
 */
-get_header();
+get_header('contact');
 ?>
 
 <?php echo apply_shortcodes('[mwform_formkey key="132"]'); ?>
