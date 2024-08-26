@@ -2,7 +2,7 @@
 /*
 Template Name: complete
 */
-get_header();
+get_header('contact');
 ?>
 <div class="site-main">
     <section class="section-contents" id="complete">
