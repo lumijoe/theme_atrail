@@ -130,7 +130,7 @@ function get_main_image()
 		else :
 			return wp_get_attachment_image($attachment_id, 'detail');
 		endif;
-	elseif (is_category('news') || is_singular('post')) :
+	elseif (is_category('info') || is_singular('post')) :
 		return '<img src="' . get_template_directory_uri() . '/assets/images/bg-page-news.jpg" />';
 	elseif (is_search() || is_404()) :
 		return '<img src="' . get_template_directory_uri() . '/assets/images/bg-page-search.jpg">';
