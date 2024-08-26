@@ -429,6 +429,15 @@ company
   text-align: left;
   text-overflow: ellipsis;
 }
+
+/* *******************
+privacy-policy
+*********************/
+.lead-inner p {
+  text-align: left!important;
+}
+
+
 /* *******************
 form
 *********************/
