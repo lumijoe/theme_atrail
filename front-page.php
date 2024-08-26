@@ -257,7 +257,26 @@
     <span class="section-title-en"></span>
     <h2 class="section-title" style="margin-bottom:30px;">会社概要</h2>
     <div class="l-company-table">
-      <table style="margin-top:4%!important;">
+      <p>会社概要の本文が入ります。会社概要の本文が入ります。会社概要の本文が入ります。<br>
+        会社概要の本文が入ります。会社概要の本文が入ります。会社概要の本文が入ります。会社概要の本文が入ります。<br>
+        会社概要の本文が入ります。会社概要の本文が入ります。</p>
+      <!-- <div class="page-inner">
+        <p>テsつ</p>
+        <div class="page-main" id="pg-common">
+          <ul class="commons">
+            <?php
+            $common_pages = get_child_pages();
+            if ($common_pages->have_posts()):
+              while ($common_pages->have_posts()): $common_pages->the_post();
+                get_template_part('content-common');
+              endwhile;
+              wp_reset_postdata();
+            endif;
+            ?>
+          </ul>
+        </div>
+      </div> -->
+      <!-- <table style="margin-top:4%!important;">
         <tr>
           <th>社名</th>
           <td>アトレイル株式会社</td>
@@ -286,7 +305,7 @@
           <th>取引銀行</th>
           <td>●●●●銀行 ●●支店</td>
         </tr>
-      </table>
+      </table> -->
     </div>
   </div>
 </section>
