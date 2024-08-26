@@ -257,7 +257,7 @@
     <span class="section-title-en"></span>
     <h2 class="section-title" style="margin-bottom:30px;">会社案内</h2>
     <div class="l-company-table">
-      <p>アトレイルズは長年の住宅メーカーでのノウハウを活かし、より沢山の人へ「暮らしを自由に」を届けます。<br>コンテナの特徴を活かし、ハウスをはじめ、ショップ、オフィス、ガレージなど、こだわりの空間づくりを提供しています。</p>
+      <p>長年の住宅メーカーでのノウハウを活かし<br>より沢山の人へ「暮らしを自由に」を届けます。<br>コンテナの特徴を活かした自由な発想のハウスをはじめ<br>ショップ、オフィス、ガレージなど、お客様のこだわりの空間づくりを支えています。</p>
     </div>
     <div class="section-buttons">
       <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('company')); ?>';">
