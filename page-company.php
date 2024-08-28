@@ -8,8 +8,8 @@ get_header('company');
 <section class="section-contents" id="message">
   <div class="wrapper maxw100vw">
     <span class="section-title-en"></span>
-    <h2 class="section-title" style="margin-bottom:30px;">代表挨拶</h2>
-    <div style="display:flex; flex-direction:row;">
+    <h2 class="section-title message-title">代表挨拶</h2>
+    <div class="message-div">
       <div>
         <h3>「暮らしに自由を」<br>それが私たちのコミットメントです。</h3>
         <hr>

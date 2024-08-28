@@ -425,6 +425,14 @@ company
   max-width: 40%;
   padding-left: 20px;
 }
+.message-title {
+  margin-bottom:30px;
+}
+.message-div {
+  display:flex;
+  flex-direction:row;
+  padding-top: 4%!important;
+}
 #message {
   background-color: #e5e5e5;
 }
@@ -720,9 +728,19 @@ form
     font-size: 1.4rem;
   }
 }
+@media screen and (max-width: 1200px) {
+  .message-div {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    padding-top: 4%;
+  }
+}
 @media screen and (max-width: 1230px) {
   .message-img {
-    max-width: 40%;
+    max-width: 60%;
+    padding-left: 0px;
+    padding-top: 4%;
   }
 }
 
