@@ -1863,6 +1863,7 @@ form
 
 #footer .footerContents-sitemap {
   width: 65.6%;
+  display:flex!important;
 }
 
 #footer .footerContents-sitemap .sitemap-inner {
@@ -1933,6 +1934,9 @@ form
   margin-top: 54px;
   text-align: center;
   font-size: 1.2rem;
+}
+#footer .page_item_has_children ul {
+  display: none;
 }
 
 /* --------------------------------
@@ -4995,7 +4999,7 @@ input[type="submit"]::after {
 }
 
 .footer-nav ul li {
-  width: 40%;
+  width: 30%;
   margin-bottom: 20px;
   color: #fff;
 }
