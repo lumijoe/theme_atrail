@@ -3424,7 +3424,7 @@ form
  * -------------------------------- */
 @media screen and (max-width: 769px) {
   .page-contents .page-container {
-    padding: 6.7% 4% 0;
+    padding: 6.7% 0;
   }
 
   #pg-privacy .basic-box {
