@@ -407,7 +407,7 @@ company
   border-bottom: 1px solid #9e9e9e;
 }
 .l-company-table tr th {
-  flex: 0 0 100px;
+  flex: 0 0 120px;
   text-align: left;
   margin-right: 25px;
   font-weight: 300;
@@ -435,6 +435,12 @@ company
 }
 #message {
   background-color: #e5e5e5;
+}
+.access-div {
+   overflow: hidden!important;
+}
+.access-div iframe {
+  padding-top: 2%;
 }
 
 /* *******************
@@ -1806,8 +1812,8 @@ form
   padding-top: 23px;
   padding-bottom: 23px;
   height: auto;
-  color: #c4c4c4;
-  background-color: #b3b3b3;
+  color: #fff;
+  background-color: #434343;
 }
 
 #footer .footerContents {
@@ -1820,12 +1826,16 @@ form
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
 }
 
 #footer .footerContents-contact {
   padding-bottom: 36px;
-  border-right: 1px solid #494949;
+  border-right: 1px solid #fff;
   width: 34.4%;
+  padding-right: 4%;
 }
 
 #footer .footerContents-contact .enterprise-logo {
@@ -1837,15 +1847,17 @@ form
 }
 
 #footer .footerContents-contact .enterprise-detail {
-  margin-top: 32px;
+  margin-top: 10px;
 }
 
 #footer .footerContents-contact .enterprise-detail .name {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
 #footer .footerContents-contact .enterprise-detail .address {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   font-size: 1.3rem;
 }
 
@@ -4983,7 +4995,7 @@ input[type="submit"]::after {
 }
 
 .footer-nav ul li {
-  width: 30%;
+  width: 40%;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -4993,7 +5005,7 @@ input[type="submit"]::after {
 }
 
 .footer-nav {
-  padding-left: 15%;
+  padding-left: 10%;
 }
 
 /* ぱんくず */

@@ -1,4 +1,4 @@
-<!-- <?php if (! is_front_page()): ?>
+<?php if (! is_front_page()): ?>
         </div>
       </div>
     </main>
@@ -12,13 +12,15 @@
       <div class="footerContents">
         <div class="footerContents-contact">
           <div class="enterprise-logo">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/svg/logo-footer.svg" alt="atrail" />
+            <img src="https://atrail.co.jp/wp-content/uploads/images/logo-white.png" alt="atrail" style="max-width:80px;" />
           </div>
           <div class="enterprise-detail">
-            <p class="name">ATRAIL</p>
+            <p class="name">アトレイル株式会社</p>
             <p class="address">
-              住所<br />
-              住所
+            〒533-0033<br>
+            大阪市東淀川区東中島1丁目21番3号<br>
+            000-000-0000<br>
+            受付時間 / 9:00～18:00（水曜定休）
             </p>
           </div>
         </div>
@@ -50,11 +52,11 @@
         echo $footer_cache;
       endif;
 ?>
-  </div>/.container -->
+  </div>
 
 
 <!-- nav -->
-<div class="l-nav footer">
+<!-- <div class="l-nav footer">
   <nav class="global-nav nav-list">
     <?php
     wp_nav_menu([
@@ -66,7 +68,7 @@
   <p class="copyright">
     <small class="copyright-text">&#169; ATRAIL CO.,LTD アトレイル株式会社 </small>
   </p>
-</div>
+</div> -->
 
 <?php wp_footer(); ?>
 </body>

@@ -105,6 +105,15 @@ get_header('company');
           <th>取引銀行</th>
           <td>●●●●銀行 ●●支店</td>
         </tr>
+        <tr>
+          <th>管理窓口代行</th>
+          <td>
+            <ul>
+              <li>〒555-0012 大阪市西淀川区御幣島2丁目7番22号</li>
+              <li>TEL 06-6476-5077</li>
+            </ul>
+          </td>
+        </tr>
       </table>
     </div>
   </div>
@@ -114,7 +123,7 @@ get_header('company');
   <div class="wrapper maxw100vw">
     <span class="section-title-en"></span>
     <h2 class="section-title" style="margin-bottom:30px;">アクセス</h2>
-    <div style="overflow:hidden;">
+    <div class="access-div">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6557.781500701219!2d135.5037595162928!3d34.73314807862588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e43c4ae64119%3A0x40d6896f8eb02547!2z44CSNTMzLTAwMzMg5aSn6Ziq5bqc5aSn6Ziq5biC5p2x5reA5bed5Yy65p2x5Lit5bO277yR5LiB55uu77yS77yR4oiS77yTIOOCt-ODo-ODiOODvOeZvee-jg!5e0!3m2!1sja!2sjp!4v1724657005091!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
