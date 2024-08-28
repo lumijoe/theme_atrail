@@ -426,18 +426,18 @@ company
   padding-left: 20px;
 }
 .message-title {
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 .message-div {
-  display:flex;
-  flex-direction:row;
-  padding-top: 4%!important;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4% !important;
 }
 #message {
   background-color: #e5e5e5;
 }
 .access-div {
-   overflow: hidden!important;
+  overflow: hidden !important;
 }
 .access-div iframe {
   padding-top: 2%;
@@ -1863,7 +1863,8 @@ form
 
 #footer .footerContents-sitemap {
   width: 65.6%;
-  display:flex!important;
+  display: flex !important;
+  align-items: center;
 }
 
 #footer .footerContents-sitemap .sitemap-inner {
@@ -4999,7 +5000,7 @@ input[type="submit"]::after {
 }
 
 .footer-nav ul li {
-  width: 30%;
+  width: 33%;
   margin-bottom: 20px;
   color: #fff;
 }
