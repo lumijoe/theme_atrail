@@ -425,6 +425,9 @@ company
   max-width: 40%;
   padding-left: 20px;
 }
+#message {
+  background-color: #e5e5e5;
+}
 
 /* *******************
 privacy-policy
