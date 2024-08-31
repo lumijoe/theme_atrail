@@ -355,9 +355,20 @@ cta
 .copyright {
   text-align: center;
   padding-top: 25px;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */
   background-color: #343434;
   color: #fff;
+}
+.copyright-text {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  background-color: #343434;
+}
+.copy_after_p {
+  font-size: 14px;
 }
 .footer .nav-list {
   padding-bottom: 0px;
@@ -732,6 +743,15 @@ form
   #pg-error .search-form .search-box .button-submit {
     min-width: 80px;
     font-size: 1.4rem;
+  }
+  .l-gallery-section .l-gallery {
+    grid-template-columns: 1fr !important;
+  }
+  .l-gallery-section .l-gallery:nth-child(even) img {
+    order: 1 !important;
+  }
+  .sp-pb50 {
+    padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -1810,7 +1830,6 @@ form
 
 #footer {
   padding-top: 23px;
-  padding-bottom: 23px;
   height: auto;
   color: #fff;
   background-color: #434343;
@@ -1945,7 +1964,7 @@ form
  * -------------------------------- */
 @media screen and (max-width: 769px) {
   #footer {
-    padding: 30px 4% 12px;
+    padding: 30px 0 0;
   }
 
   #footer .footerContents {
@@ -1967,7 +1986,7 @@ form
   }
 
   #footer .footerContents-contact .enterprise-logo {
-    display: none;
+    display: block;
   }
 
   #footer .footerContents-contact .enterprise-detail {
@@ -2122,7 +2141,7 @@ form
 }
 
 #header .logo .fixed-logo {
-  display: none;
+  display: block !important;
 }
 
 #header .header-nav {
@@ -2391,6 +2410,7 @@ form
   #header .header-inner {
     min-width: auto;
     width: auto;
+    height: 40px;
   }
 
   #header .logo {
@@ -2398,7 +2418,8 @@ form
   }
 
   #header .logo .fixed-logo {
-    display: none;
+    display: block !important;
+    max-width: 40% !important;
   }
 
   #header .toggle-menu {
@@ -3834,13 +3855,33 @@ form
 .section-contents .section-buttons {
   margin-top: 6.25%;
 }
-
+.sp-block {
+  display: none !important;
+}
+.sp-none {
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+tel {
+  font-weight: 700px;
+  font-size: 20px;
+}
 /* --------------------------------
  * smart phone
  * -------------------------------- */
 @media screen and (max-width: 769px) {
   .section-contents {
     padding: 40px 4% 60px;
+    margin-top: 40px;
+  }
+  .sp-none {
+    display: none !important;
+  }
+  .sp-block {
+    display: block !important;
   }
 
   .section-contents .section-title-en {
@@ -3997,6 +4038,8 @@ form
 
 #pg-shopDetail .lead-inner {
   width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 #pg-shopDetail .lead-inner .shop-lead {
@@ -5174,7 +5217,7 @@ input[type="submit"]::after {
     color: #fff;
     display: block;
     width: 80%;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #fff;
     position: relative;
   }
 

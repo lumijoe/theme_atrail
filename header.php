@@ -17,7 +17,8 @@
   <div class="container">
     <header id="header">
       <div class="header-inner">
-        <div class="flexrowYcenter">
+        <!-- ロゴ -->
+        <div class="flexrowYcenter sp-none">
           <div class="logo">
             <h1>
               <a class="logo-header" href="<?php echo esc_url(home_url()); ?>">
@@ -26,11 +27,49 @@
             </h1>
           </div>
         </div>
+        <!-- ハンバーガーボタン -->
+        <button class="toggle-menu js-toggoleNav">
+          <span class="toggle-line">メニュー</span>
+        </button>
+        <div class="header-nav">
+          <!-- ロゴ -->
+          <div class="flexrowYcenter sp-block">
+            <div class="logo">
+              <h1>
+                <a class="logo-header" href="<?php echo esc_url(home_url()); ?>">
+                  <img src="https://atrail.co.jp/wp-content/uploads/images/logo-green@2x.png" class="fixed-logo" alt="ATRAIL" style="max-width:20%;">
+                </a>
+              </h1>
+            </div>
+          </div>
+          <!-- ナビメニュー -->
+          <nav class="global-nav">
+            <?php
+            wp_nav_menu([
+              'theme_location' => 'place_global',
+              'container' => false,
+            ]);
+            ?>
+          </nav>
+          <form class="search-form" role="search" method="get" action="<?php echo esc_url(home_url()); ?>">
+            <div class="search-box">
+              <input type="text" class="search-input" name="s" placeholder="キーワードを入力してください" />
+              <button type="submit" class="button-submit"></button>
+            </div>
+            <div class="search-buttons">
+              <button type="button" class="close-icon js-searchIcon"></button>
+              <button type="button" class="search-icon js-searchIcon"></button>
+            </div>
+          </form>
+        </div>
+
         <div style="display:flex; flex-direction: row;">
-          <div>
+          <!-- 電話番号 -->
+          <div class="sp-none">
             <tel>0120-000-000</tel>
             <p>受付時間 / 9:00～18:00（水曜定休）</p>
           </div>
+          <!-- メール -->
           <button class="mail">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/icon-mail.png" alt="" srcset="" style="width:80px; height:auto;">
           </button>
@@ -42,7 +81,6 @@
       <section class="section-contents" id="keyvisual">
         <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-02.jpg" alt="">
         <div class="wrapper">
-          <!-- <h1 class="site-title">your style</h1> -->
           <h1 class="site-caption">コンテナで、かなえる。<br>自由を、つくる。</h1>
           <img src="https://atrail.co.jp/wp-content/uploads/images/logo-white@2x.png" alt="" srcset="" class="logo-img">
         </div>

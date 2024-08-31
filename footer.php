@@ -42,7 +42,7 @@ if (! $footer_cache = get_transient('footer_cache')):
         </ul> -->
     </div>
     <p class="copyright">
-      <small class="copyright-text">&#169; ATRAIL</small>
+    <p class="copyright-text">&copy;ATRAIL</p>
     </p>
   </footer>
 <?php
