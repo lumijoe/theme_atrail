@@ -25,7 +25,7 @@
             <div class="logo">
               <h1>
                 <a class="logo-header" href="<?php echo esc_url(home_url()); ?>">
-                  <img src="https://atrail.co.jp/wp-content/uploads/images/logo-green@2x.png" class="fixed-logo" alt="ATRAIL" style="max-width:20%;">
+                  <img src="https://atrail.co.jp/wp-content/uploads/images/logo-green@2x.png" class="fixed-logo" alt="ATRAIL" style="max-width:15%;">
                 </a>
               </h1>
             </div>
