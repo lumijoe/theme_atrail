@@ -33,11 +33,8 @@
         </div>
 
         <!-- inner-black -->
-        <div class="inner-black" style="width: 100%; height: 50px; display:flex; flex-direction: row; justify-content: flex-end; background-color: red">
-          <!-- ハンバーガーボタン -->
-          <button class="toggle-menu js-toggoleNav">
-            <span class="toggle-line">メニュー</span>
-          </button>
+        <div class="inner-black" style="width: 100%; height: 50px; display:flex; flex-direction: row; justify-content: flex-end; background-color: #343434; margin-top:8px;">
+
           <div class="header-nav">
             <!-- ロゴ -->
             <div class="flexrowYcenter sp-block">
@@ -61,10 +58,11 @@
 
           </div>
 
-          <div style="display:flex; flex-direction: row;">
+          <div style="display:flex; flex-direction: row; margin-left:10px; margin-right: 20px;">
             <!-- 電話番号 -->
-            <a href="./" style="display: flex; flex-direction:row; box-sizing: border-box; border: 1px solid #232323; padding: 12px 13px; border-radius: 60px; margin-top: 0px; margin-bottom: 0px; align-items: center;">
-              <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" style="width: 25px; height: 25px;">
+            <a href="./" style="display: flex; flex-direction:row; box-sizing: border-box; padding: 12px 13px; border-radius: 60px; margin-top: 0px; margin-bottom: 0px; align-items: center; background-color: #fff; margin-top: 5px;
+    margin-bottom: 5px;">
+              <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" style="width: 35px; height: 35px;">
               <div style="display:flex; flex-direction: column; align-content: flex-start; justify-content: center; padding-left:10px">
                 <tel>0120-0000-000</tel>
                 <p style="margin-top:-10px;letter-spacing:0.1px; font-size: 12px;">受付時間 / 09:00-18:00（水曜定休日）</p>
@@ -72,13 +70,17 @@
             </a>
 
             <!-- メール -->
-            <a href="./" style="display: flex; flex-direction:row; box-sizing: border-box; border: 1px solid #232323; padding: 12px 13px; border-radius: 60px; margin-top: 0px; margin-bottom: 0px; align-items: center;">
-              <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" style="width: 25px; height: 25px;">
+            <a href="./" style="display: flex; flex-direction:row; box-sizing: border-box; padding: 12px 13px; border-radius: 60px; margin-top: 0px; margin-bottom: 0px; align-items: center; background: linear-gradient(to right, #3CA88F, #007BF7); margin-left:10px; margin-top: 5px;
+    margin-bottom: 5px;">
+              <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" style="width: 35px; height: 35px;">
               <div style="display:flex; flex-direction: column; align-content: flex-start; justify-content: center; padding-left:10px">
-                <p>0120-0000-000</p>
-                <p style="margin-top:-10px;letter-spacing:0.1px; font-size: 12px;">受付時間 / 09:00-18:00（水曜定休日）</p>
+                <p style="color: #fff;">お問い合わせ</p>
               </div>
             </a>
+            <!-- ハンバーガーボタン -->
+            <button class="toggle-menu js-toggoleNav" style="align-self: center; padding-left: 80px;">
+              <span class="toggle-line">メニュー</span>
+            </button>
 
 
 

@@ -2095,7 +2095,7 @@ form
   position: absolute;
   top: 0;
   right: 0;
-  padding: 32px 0 24px;
+  padding: 8px 0 0;
   width: 100%;
   -webkit-transition: none;
   transition: none;
@@ -2155,6 +2155,8 @@ form
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #header .global-nav .menu {
@@ -2323,7 +2325,6 @@ form
 
 #header.standby {
   position: fixed;
-  padding: 1% 0;
   background-color: #fff;
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
@@ -2405,7 +2406,7 @@ form
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 10px 15px;
+    padding: 10px 0;
   }
 
   #header .header-inner {
@@ -2441,7 +2442,7 @@ form
     text-indent: -9999px;
     width: 27px;
     height: 1px;
-    background-color: #fff;
+    background-color: #fff !important;
   }
 
   #header .toggle-menu .toggle-line::before,
@@ -2451,7 +2452,7 @@ form
     left: 0;
     width: 27px;
     height: 1px;
-    background-color: #fff;
+    background-color: #fff !important;
   }
 
   #header .toggle-menu .toggle-line::before {
@@ -3870,6 +3871,7 @@ tel {
   font-weight: bold;
   letter-spacing: 0.2px;
   font-size: 16px;
+  color: #39a497;
 }
 /* --------------------------------
  * smart phone
