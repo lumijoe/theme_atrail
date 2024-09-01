@@ -33,7 +33,7 @@
         </div>
 
         <!-- inner-black -->
-        <div class="inner-black" style="height: 60px; display:flex; flex-direction: row; background-color: red">
+        <div class="inner-black" style="width: 100%; height: 50px; display:flex; flex-direction: row; justify-content: flex-end; background-color: red">
           <!-- ハンバーガーボタン -->
           <button class="toggle-menu js-toggoleNav">
             <span class="toggle-line">メニュー</span>
@@ -58,61 +58,68 @@
               ]);
               ?>
             </nav>
-            <form class="search-form" role="search" method="get" action="<?php echo esc_url(home_url()); ?>">
-              <div class="search-box">
-                <input type="text" class="search-input" name="s" placeholder="キーワードを入力してください" />
-                <button type="submit" class="button-submit"></button>
-              </div>
-              <div class="search-buttons">
-                <button type="button" class="close-icon js-searchIcon"></button>
-                <button type="button" class="search-icon js-searchIcon"></button>
-              </div>
-            </form>
+
           </div>
 
           <div style="display:flex; flex-direction: row;">
             <!-- 電話番号 -->
-            <div class="sp-none">
-              <tel>0120-000-000</tel>
-              <p>受付時間 / 9:00～18:00（水曜定休）</p>
-            </div>
+            <a href="./" style="display: flex; flex-direction:row; box-sizing: border-box; border: 1px solid #232323; padding: 12px 13px; border-radius: 60px; margin-top: 0px; margin-bottom: 0px; align-items: center;">
+              <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" style="width: 25px; height: 25px;">
+              <div style="display:flex; flex-direction: column; align-content: flex-start; justify-content: center; padding-left:10px">
+                <tel>0120-0000-000</tel>
+                <p style="margin-top:-10px;letter-spacing:0.1px; font-size: 12px;">受付時間 / 09:00-18:00（水曜定休日）</p>
+              </div>
+            </a>
+
             <!-- メール -->
-            <button class="mail">
+            <a href="./" style="display: flex; flex-direction:row; box-sizing: border-box; border: 1px solid #232323; padding: 12px 13px; border-radius: 60px; margin-top: 0px; margin-bottom: 0px; align-items: center;">
+              <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" style="width: 25px; height: 25px;">
+              <div style="display:flex; flex-direction: column; align-content: flex-start; justify-content: center; padding-left:10px">
+                <p>0120-0000-000</p>
+                <p style="margin-top:-10px;letter-spacing:0.1px; font-size: 12px;">受付時間 / 09:00-18:00（水曜定休日）</p>
+              </div>
+            </a>
+
+
+
+            <!-- メール -->
+            <!-- <button class="mail">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/icon-mail.png" alt="" srcset="" style="width:80px; height:auto;">
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
-    </header>
-    <!-- front-page.phpの場合 -->
-    <?php if (is_front_page()): ?>
-      <section class="section-contents" id="keyvisual" style="margin-top: 100px;">
-        <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-02.jpg" alt="">
-        <div class="wrapper">
-          <h1 class="site-caption">コンテナで、かなえる。<br>自由を、つくる。</h1>
-          <img src="https://atrail.co.jp/wp-content/uploads/images/logo-white@2x.png" alt="" srcset="" class="logo-img">
-        </div>
-      </section>
-      <!-- front-page.php以外のphpページの場合 -->
-    <?php else: ?>
-      <div class="wrap">
-        <div id="primary" class="content-area">
-          <main>
-            <div class="page-contents">
-              <div class="page-head">
-                <?php echo get_main_image(); ?>
+  </div>
+  </header>
+  <!-- front-page.phpの場合 -->
+  <?php if (is_front_page()): ?>
+    <section class="section-contents" id="keyvisual" style="margin-top: 100px;">
+      <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-02.jpg" alt="">
+      <div class="wrapper">
+        <h1 class="site-caption">コンテナで、かなえる。<br>自由を、つくる。</h1>
+        <img src="https://atrail.co.jp/wp-content/uploads/images/logo-white@2x.png" alt="" srcset="" class="logo-img">
+      </div>
+    </section>
+    <!-- front-page.php以外のphpページの場合 -->
+  <?php else: ?>
+    <div class="wrap">
+      <div id="primary" class="content-area">
+        <main>
+          <div class="page-contents">
+            <div class="page-head">
+              <?php echo get_main_image(); ?>
 
-                <div class="wrapper">
-                  <span class="page-title-en"><?php echo get_main_en_title(); ?></span>
-                  <h2 class="page-title"><?php echo get_main_title(); ?></h2>
-                </div>
+              <div class="wrapper">
+                <span class="page-title-en"><?php echo get_main_en_title(); ?></span>
+                <h2 class="page-title"><?php echo get_main_title(); ?></h2>
               </div>
-              <div class="page-container">
-                <div class="bread_crumb">
-                  <?php
-                  if (function_exists('bcn_display')) {
-                    bcn_display();
-                  }
-                  ?>
-                </div>
-              <?php endif; ?>
+            </div>
+            <div class="page-container">
+              <div class="bread_crumb">
+                <?php
+                if (function_exists('bcn_display')) {
+                  bcn_display();
+                }
+                ?>
+              </div>
+            <?php endif; ?>
