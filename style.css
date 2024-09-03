@@ -338,7 +338,7 @@ cta
 .l-cta button {
   width: 264px;
   height: 60px;
-  background-color: black;
+  background: linear-gradient(to right, #3ca88f, #007bf7)
   border-radius: 60px;
 }
 .l-cta button a {
@@ -4602,7 +4602,7 @@ tel {
   right: 0;
   bottom: 0;
   background: -webkit-linear-gradient(left, #127dd6, #4ec9e5);
-  background: linear-gradient(to right, #127dd6, #4ec9e5);
+  background: linear-gradient(to right, #3CA88F, #007BF7);
   z-index: -1;
   opacity: 0;
   -webkit-transition: all 0.3s ease 0.2s;
