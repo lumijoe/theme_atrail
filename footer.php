@@ -35,11 +35,6 @@ if (! $footer_cache = get_transient('footer_cache')):
 
         </nav>
       </div>
-      <!-- <ul class='sns-navi'>
-          <li class='twitter'><a href='#'></a></li>
-          <li class='facebook'><a href='#'></a></li>
-          <li class='instagram'><a href='#'></a></li>
-        </ul> -->
     </div>
     <p class="copyright">
     <p class="copyright-text">&copy;ATRAIL</p>
@@ -53,22 +48,6 @@ else:
 endif;
 ?>
 </div>
-
-
-<!-- nav -->
-<!-- <div class="l-nav footer">
-  <nav class="global-nav nav-list">
-    <?php
-    wp_nav_menu([
-      'theme_location' => 'place_footer',
-      'container' => false,
-    ]);
-    ?>
-  </nav>
-  <p class="copyright">
-    <small class="copyright-text">&#169; ATRAIL CO.,LTD アトレイル株式会社 </small>
-  </p>
-</div> -->
 
 <?php wp_footer(); ?>
 </body>
