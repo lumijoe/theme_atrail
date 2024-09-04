@@ -5155,6 +5155,7 @@ input[type="submit"]::after {
   #keyvisual > img {
     height: 62vh;
     min-height: auto;
+    margin-top: -78px;
   }
 
   .lead-inner {
