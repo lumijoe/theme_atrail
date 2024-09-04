@@ -4724,6 +4724,7 @@ iframe {
 
 #keyvisual > img {
   height: 740px;
+  margin-top: -26px;
 }
 
 .page-template-page-shop-detail .lead-inner {
