@@ -37,7 +37,7 @@ if (! $footer_cache = get_transient('footer_cache')):
       </div>
     </div>
     <p class="copyright">
-    <p class="copyright-text">&copy;ATRAIL</p>
+    <p class="copyright-text">&copy;<span class="copyright-name">ATRAIL CO., LTD.</span></p>
     </p>
   </footer>
 <?php
