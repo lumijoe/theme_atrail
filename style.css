@@ -2400,6 +2400,16 @@ form
   background: linear-gradient(to right, #127dd6, #4ec9e5);
 }
 
+.text-tel {
+  margin-top:-10px;
+  letter-spacing:0.1px;
+  font-size: 12px;
+}
+.img-tel {
+  width: 35px;
+  height: 35px;"
+}
+
 /* --------------------------------
  * smart phone
  * -------------------------------- */
@@ -2717,6 +2727,13 @@ form
  * smart phone
  * -------------------------------- */
 @media screen and (max-width: 769px) {
+  .text-tel {
+    display: none;
+  }
+  .img-tel {
+    width: 20px;
+    height: 20px;
+  }
   #keyvisual {
     height: 62vh;
     min-height: auto;
@@ -3873,7 +3890,7 @@ form
 tel {
   font-weight: bold;
   letter-spacing: 0.2px;
-  font-size: 16px;
+  font-size: clamp(10px, 2vw, 16px);
   color: #39a497;
 }
 /* --------------------------------
