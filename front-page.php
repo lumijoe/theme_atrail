@@ -188,7 +188,8 @@
 <!-- cta -->
 <section class="l-cta">
   <button class="p-cta-btn">
-    <a href="https://atrail.co.jp/contact/">お問い合わせ→</a>
+  <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-mail">
+    <a href="https://atrail.co.jp/contact/">お問い合わせ</a>
   </button>
 </section>
 
