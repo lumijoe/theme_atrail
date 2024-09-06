@@ -10,11 +10,11 @@ echo wp_get_attachment_image( $image_id, 'shop-detail' );
                             <p class="shop-caption"><?php the_sub_field( 'shop_strength' ); ?></p>
                             <div class="shop-detail">
                               <dl>
-                                <dt>間取り・広さ</dt>
+                                <dt>サイズ</dt>
                                 <dd><?php the_sub_field( 'shop_hours' ); ?></dd>
                               </dl>
                               <dl>
-                                <dt>理想・ご要望</dt>
+                                <dt>ニーズ</dt>
                                 <dd><?php the_sub_field( 'floor_info' ); ?></dd>
                               </dl>
                             </div>

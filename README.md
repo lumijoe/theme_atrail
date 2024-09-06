@@ -835,3 +835,5 @@ endif;
 </body>
 
 </html>
+
+## header-shop.php before

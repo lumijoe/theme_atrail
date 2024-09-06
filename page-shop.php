@@ -1,4 +1,4 @@
-<?php get_header('contact'); ?>
+<?php get_header('shop'); ?>
 			  <div class="page-inner">
                 <div class="page-main" id="pg-common">
                   <ul class="commons">
