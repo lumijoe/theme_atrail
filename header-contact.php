@@ -65,7 +65,7 @@
               <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" style="width: 35px; height: 35px;">
               <div style="display:flex; flex-direction: column; align-content: flex-start; justify-content: center; padding-left:10px">
                 <tel>0120-0000-000</tel>
-                <p style="margin-top:-10px;letter-spacing:0.1px; font-size: 12px;">受付時間 / 09:00-18:00（水曜定休日）</p>
+                <!-- <p style="margin-top:-10px;letter-spacing:0.1px; font-size: 12px;">受付時間 / 09:00-18:00（水曜定休日）</p> -->
               </div>
             </a>
 
@@ -74,7 +74,7 @@
     margin-bottom: 5px;">
               <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" style="width: 35px; height: 35px;">
               <div style="display:flex; flex-direction: column; align-content: flex-start; justify-content: center; padding-left:10px">
-                <p style="color: #fff;">お問い合わせ</p>
+                <!-- <p style="color: #fff;">お問い合わせ</p> -->
               </div>
             </a>
             <!-- ハンバーガーボタン -->
