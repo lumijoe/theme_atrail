@@ -63,7 +63,7 @@
             <a href="./" style="display: flex; flex-direction:row; box-sizing: border-box; padding: 12px 13px; border-radius: 60px; margin-top: 0px; margin-bottom: 0px; align-items: center; background-color: #fff; margin-top: 5px;
     margin-bottom: 5px;">
               <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" class="img-tel">
-              <div style="display:flex; flex-direction: column; align-content: flex-start; justify-content: center; padding-left:10px">
+              <div class="header-tel-div">
                 <tel>0120-0000-000</tel>
                 <p class="text-tel">受付時間 / 09:00-18:00（水曜定休日）</p>
               </div>
@@ -72,9 +72,9 @@
             <!-- メール -->
             <a href="https://atrail.co.jp/contact/" style="display: flex; flex-direction:row; box-sizing: border-box; padding: 12px 13px; border-radius: 60px; margin-top: 0px; margin-bottom: 0px; align-items: center; background: linear-gradient(to right, #3CA88F, #007BF7); margin-left:10px; margin-top: 5px;
     margin-bottom: 5px;">
-              <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" style="width: 35px; height: 35px;">
-              <div style="display:flex; flex-direction: column; align-content: flex-start; justify-content: center; padding-left:10px">
-                <!-- <p style="color: #fff;">お問い合わせ</p> -->
+              <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-mail">
+              <div class="header-mail-div">
+                <p class="text-mail">お問い合わせ</p>
               </div>
             </a>
             <!-- ハンバーガーボタン -->

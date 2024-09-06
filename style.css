@@ -2409,7 +2409,28 @@ form
   width: 35px;
   height: 35px;
 }
-
+.text-mail {
+  color:#fff;
+  font-size:clamp(4px, 2.8vw, 16px);
+}
+.img-mail {
+  width: 35px;
+  height:35px;
+}
+.header-mail-div {
+  display:flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  padding-left:10px;
+}
+.header-tel-div {
+  display:flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  padding-left:10px;
+}
 /* --------------------------------
  * smart phone
  * -------------------------------- */
@@ -2733,6 +2754,16 @@ form
   .img-tel {
     width: 20px;
     height: 20px;
+  }
+  .img-mail {
+    width: 20px;
+    height: 20px;
+  }
+  .header-mail-div {
+    padding-left: 5px;
+  }
+  .header-tel-div {
+    padding-left: 5px;
   }
   #keyvisual {
     height: 62vh;
@@ -3890,7 +3921,7 @@ form
 tel {
   font-weight: bold;
   letter-spacing: 0.2px;
-  font-size: clamp(10px, 2vw, 16px);
+  font-size: clamp(4px, 2.8vw, 16px);
   color: #39a497;
 }
 /* --------------------------------
