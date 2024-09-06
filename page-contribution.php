@@ -1,4 +1,4 @@
-<?php get_header('shop'); ?>
+<?php get_header('contribution'); ?>
 			  <div class="page-inner">
                 <div class="page-main" id="pg-contribution">
 				  <div class="contribution">

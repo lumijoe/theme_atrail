@@ -2,7 +2,7 @@
 /*
 Template Name: 店舗詳細
 */
-get_header();
+get_header('contribution');
 ?>
 <div class="page-inner full-width">
   <div class="page-main" id="pg-shopDetail">

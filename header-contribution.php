@@ -109,7 +109,7 @@
         <main>
           <div class="page-contents">
             <div class="page-head">
-              <img src="https://atrail.co.jp/wp-content/uploads/images/bg-page-company.jpg" alt="">
+              <img src="https://atrail.co.jp/wp-content/uploads/images/bg-page-shop.jpg" alt="">
 
               <div class="wrapper">
                 <span class="page-title-en"><?php echo get_main_en_title(); ?></span>
