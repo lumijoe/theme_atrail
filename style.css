@@ -190,7 +190,8 @@ html {
 
 body {
   font-size: 1.4rem;
-  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: YuGothic, "游ゴシック", "Hiragino Kaku Gothic ProN",
+    "ヒラギノ角ゴシック ProN", Meiryo, "メイリオ", sans-serif;
   font-weight: 400;
   line-height: 1.76;
   letter-spacing: 1px;
@@ -394,6 +395,54 @@ news
   width: 62% !important;
   text-align: justify;
 }
+/****************
+info
+****************/
+.info-othersection-wrapper {
+  padding: 40px 0 70px;
+}
+.info-othersection-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.info-othersection-work ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.info-othersection-work li {
+  background-color: #232323;
+  padding: 10px 20px;
+  border-radius: 0px;
+}
+.info-othersection-work li a {
+  color: #fff;
+}
+.info-othersection-worksample img {
+  aspect-ratio: 220 /150 !important;
+  height: auto !important;
+  max-width: 250px;
+}
+.info-othersection-work {
+  width: 100%;
+}
+.arrow-next {
+  color: #3ba694;
+  padding-left: 8px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.arrow-prev {
+  color: #3ba694;
+  padding-right: 8px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.time {
+  color: #949494;
+}
+
 /*****************
 company
 *****************/
@@ -547,8 +596,17 @@ form
   justify-content: center;
 }
 .nav-links span {
-  background: #025d31 !important;
-  border: solid 1px #025d31 !important;
+  background: linear-gradient(to right, #3ca88f, #007bf7) !important;
+  border: none !important;
+}
+.nav-links span:hover {
+  background: linear-gradient(to right, #3ca88f, #007bf7) !important;
+  border: none !important;
+}
+.nav-links a:hover {
+  background: linear-gradient(to right, #3ca88f, #007bf7) !important;
+  color: #fff !important;
+  border: none !important;
 }
 @-webkit-keyframes menu-barTop {
   0% {
@@ -2401,8 +2459,8 @@ form
 }
 
 .text-tel {
-  margin-top:-10px;
-  letter-spacing:0.1px;
+  margin-top: -10px;
+  letter-spacing: 0.1px;
   font-size: 12px;
 }
 .img-tel {
@@ -2410,26 +2468,26 @@ form
   height: 35px;
 }
 .text-mail {
-  color:#fff;
-  font-size:clamp(4px, 2.8vw, 16px);
+  color: #fff;
+  font-size: clamp(4px, 2.8vw, 16px);
 }
 .img-mail {
   width: 35px;
-  height:35px;
+  height: 35px;
 }
 .header-mail-div {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-content: flex-start;
   justify-content: center;
-  padding-left:10px;
+  padding-left: 10px;
 }
 .header-tel-div {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-content: flex-start;
   justify-content: center;
-  padding-left:10px;
+  padding-left: 10px;
 }
 /* --------------------------------
  * smart phone
@@ -2836,7 +2894,7 @@ form
 
 #info .news-item .time {
   font-size: 1.4rem;
-  color: #787878;
+  color: #949494;
 }
 
 #info .news-item .title {
@@ -2945,7 +3003,7 @@ form
 #pg-news .newsLists .news-body .release {
   width: 15%;
   font-size: 1.4rem;
-  color: #787878;
+  color: #949494;
 }
 
 #pg-news .newsLists .news-body .title {
@@ -3053,7 +3111,7 @@ form
 
 #pg-newsDetail .news .news-body {
   margin-top: 2.5%;
-  padding-bottom: 4%;
+  padding-bottom: 75px;
   border-bottom: 1px solid #d0d0d0;
 }
 
@@ -3068,7 +3126,7 @@ form
 }
 
 #pg-newsDetail .more-news {
-  margin-top: 1.5%;
+  margin-top: 50px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3108,7 +3166,13 @@ form
 }
 
 #pg-newsDetail .more-news .prev .another-link:hover {
-  color: #127dd6;
+  color: #39a497;
+}
+#pg-newsDetail .more-news .backtolist .another-link:hover {
+  color: #39a497;
+}
+.news-link:hover {
+  color: #39a497;
 }
 
 #pg-newsDetail .more-news .prev .another-link:hover::before {
@@ -4758,6 +4822,7 @@ iframe {
 
 .more-news {
   position: relative;
+  align-items: center;
 }
 
 .next {
@@ -4768,6 +4833,13 @@ iframe {
 .prev {
   position: absolute;
   left: 0;
+}
+.backtolist {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Vollkorn", serif;
+  font-size: 10px;
 }
 
 #keyvisual > img {
