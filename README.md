@@ -838,4 +838,4 @@ endif;
 
 </html>
 
-## header-shop.php before
+## 個別投稿だしわけ0908
