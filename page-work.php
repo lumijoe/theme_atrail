@@ -12,7 +12,7 @@ get_header('contribution');
         <span class="title-en"></span>
         <h2 class="title" style="font-size:30px!important;">HOUSE / SHOP / OFFICE / GARAGE</h2>
       </div>
-      <section class="section-contents" id="contribution">
+      <section class="section-contents" style="padding-top: 4%!important;" id="contribution">
   <div class="wrapper">
     <?php
     $contribution_obj = get_page_by_path('contribution');
@@ -21,7 +21,7 @@ get_header('contribution');
     $contribution_title = get_the_title();
     ?>
     <?php wp_reset_postdata(); ?>
-    <div class="articles">
+    <div class="articles" style="margin-top: 0px!important; gap: 30px!important; justify-content: center!important;">
       <?php
       $contribution_pages = get_specific_posts('daily_contribution', 'event', '');
       if ($contribution_pages->have_posts()) :
