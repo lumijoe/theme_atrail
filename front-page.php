@@ -16,9 +16,9 @@
 
 
 <!-- ------------------------------
-//////////// 事業案内 shop
+//////////// 事業案内 service
 ------------------------------- -->
-<section class="section-contents" id="shop">
+<section class="section-contents" id="service">
   <div class="wrapper">
 
 
@@ -27,7 +27,7 @@
     ----------------------------->
     <?php
     // 固定ページを表示させる（引数：ページのスラッグ）
-    $shop_obj = get_page_by_path('shop');
+    $shop_obj = get_page_by_path('service');
     // 投稿記事
     $post = $shop_obj;
     // 固定ページの投稿記事を使用する宣言（引数：関数定義）
@@ -82,7 +82,7 @@
       ?>
     </ul> <!--ulここまで-->
     <div class="section-buttons">
-      <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('shop')); ?>';">
+      <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('service')); ?>';">
         <?php echo $shop_title; ?>一覧を見る
       </button>
     </div>
