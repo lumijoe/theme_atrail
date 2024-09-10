@@ -516,7 +516,9 @@ privacy-policy
 /* *******************
 form
 *********************/
-
+.section-contents-form {
+  padding-top: 40px!important;
+}
 .l-contact {
   width: 100%;
   height: auto;
@@ -819,6 +821,14 @@ form
   }
   .sp-pb50 {
     padding-bottom: 50px;
+  }
+  .form-example {
+    flex-direction: column!important;
+    align-items: flex-start!important;
+  }
+  .form-example {
+    flex-direction: column!important;
+    align-items: flex-start!important;
   }
 }
 @media screen and (max-width: 1200px) {
