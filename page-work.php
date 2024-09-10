@@ -10,7 +10,7 @@ get_header('contribution');
     <div class="shopList-Container" style="margin-top: 0px!important; padding-top:90px!important; ">
       <div class="shopList-head">
         <span class="title-en"></span>
-        <h2 class="title" style="font-size:30px!important;">HOUSE / SHOP / OFFICE / GARAGE</h2>
+        <h2 class="title" style="font-size:clamp(16px, 3vw, 30px)!important;">HOUSE / SHOP / OFFICE / GARAGE</h2>
       </div>
       <section class="section-contents" style="padding-top: 4%!important;" id="contribution">
   <div class="wrapper">
