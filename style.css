@@ -516,6 +516,9 @@ privacy-policy
 /* *******************
 form
 *********************/
+.pc-none {
+  display:none;
+}
 .section-contents-form {
   padding-top: 40px!important;
 }
@@ -849,6 +852,12 @@ form
   }
   .form_input--freetxt {
     margin-top: -20px!important;
+  }
+  .pc-none {
+    display:block;
+  }
+  .complete-text {
+    padding-bottom: 20px!important;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -1857,7 +1866,7 @@ form
   }
 
   .article-body {
-    /* 繝ｯ繝ｼ繝峨�繝ｬ繧ｹ縺ｮ逕滓�繝��繧ｿ繧呈Φ螳� */
+    
   }
 
   .article-body .article-inner:first-child {
