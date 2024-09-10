@@ -18,7 +18,7 @@
 <!-- ------------------------------
 //////////// 事業案内 service
 ------------------------------- -->
-<section class="section-contents" id="service">
+<section class="section-contents" id="shop">
   <div class="wrapper">
 
 
@@ -94,7 +94,7 @@
 
 <!----------------------------------
         gallery
-        ----------------------------------->
+----------------------------------->
 <section class="l-gallery-section">
   <ul class="l-section-inner l-section-inner-plf--20px l-gallery-section-inner">
     <li class="l-gallery">
@@ -140,7 +140,7 @@
 <section class="section-contents" id="contribution">
   <div class="wrapper">
     <?php
-    $contribution_obj = get_page_by_path('contribution');
+    $contribution_obj = get_page_by_path('work');
     $post = $contribution_obj;
     setup_postdata($post);
     $contribution_title = get_the_title();

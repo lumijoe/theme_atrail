@@ -1,5 +1,5 @@
 <div class="info-othersection-wrapper">
-    <h2 class="info-othersection-title">最新の制作事例はこちら</h2>
+    <h2 class="info-othersection-title">最新の施工事例はこちら</h2>
     <div class="info-othersection-work">
         <ul>
             <?php

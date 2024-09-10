@@ -225,12 +225,30 @@ function get_main_en_title()
 {
 	if (is_category()) :
 		$term_obj = get_queried_object();
+		
+		// カテゴリースラッグに基づいて 'news' や 'work' を返す
+		if ($term_obj->slug === 'info') {
+			return 'news';
+		} elseif ($term_obj->slug === 'work') {
+			return 'work';
+		}
+
 		$english_title = get_field('english_title', $term_obj->taxonomy . '_' . $term_obj->term_id);
 		return $english_title;
 	elseif (is_singular('post')) :
 		$term_obj = get_the_category();
 		$english_title = get_field('english_title', $term_obj[0]->taxonomy . '_' . $term_obj[0]->term_id);
 		return $english_title;
+	elseif (is_page('service')) :
+		return 'service';
+	elseif (is_page('work')) :
+		return 'work';
+	elseif (is_page('contact')) :
+		return 'form';
+	elseif (is_page('complete')) :
+		return 'form';
+	elseif (is_page('company')) :
+		return 'company';
 	elseif (is_page() || is_singular('daily_contribution')) :
 		return get_field('english_title');
 	elseif (is_search()) :
