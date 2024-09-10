@@ -838,4 +838,21 @@ endif;
 
 </html>
 
-## 個別投稿だしわけ0908
+## 表示を３０文字以内にするとき、...表示と...非表示の設定
+functions.phpで事前設定
+// 抜粋機能を固定ページに使えるよう設定
+add_post_type_support('page', 'excerpt');
+
+// 抜粋文字以降を...で表示する
+function get_flexible_excerpt($number)
+{
+	$value = get_the_excerpt();
+	$value = wp_trim_words($value, $number, '...');
+	return $value;
+}
+<!-- 30文字以降の...を表示する -->
+  <p class="caption"><?php echo get_flexible_excerpt(30); ?></p>
+  <!-- 30文字以降の...を表示しない -->
+  <p class="caption"><?php echo wp_trim_words(get_the_excerpt(), 30, ''); ?></p>
+
+

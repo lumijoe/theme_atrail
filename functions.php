@@ -190,6 +190,7 @@ add_filter('excerpt_mblength', 'cms_excerpt_length');
 // 抜粋機能を固定ページに使えるよう設定
 add_post_type_support('page', 'excerpt');
 
+// 抜粋文字以降を...で表示する
 function get_flexible_excerpt($number)
 {
 	$value = get_the_excerpt();
