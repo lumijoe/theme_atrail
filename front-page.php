@@ -67,7 +67,8 @@
                 <!-- ❶タイトル -->
                 <p class="name"><?php the_title(); ?></p>
                 <!-- 引数：❷ACFのフィールド名 -->
-                <p class="location"><?php the_field('location'); ?></p>
+                <!-- <p class="location"><?php the_field('location'); ?></p> -->
+                <p><?php the_field('location'); ?></p>
                 <div class="buttonBox">
                   <button type="button" class="seeDetail">詳しくは→</button>
                 </div>
@@ -188,9 +189,11 @@
 <!-- cta -->
 <section class="l-cta">
   <button class="p-cta-btn">
-  <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-mail">
-    <a href="https://atrail.co.jp/contact/">お問い合わせ</a>
+    <div style="display:flex; flex-direction: row; justify-content:center; align-items:center; gap: 5px;">
+      <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-mail">
+      <a href="https://atrail.co.jp/contact/" style="font-size: 16px;">お問い合わせ</a>
   </button>
+  </div>
 </section>
 
 
