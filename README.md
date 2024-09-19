@@ -856,3 +856,4 @@ function get_flexible_excerpt($number)
   <p class="caption"><?php echo wp_trim_words(get_the_excerpt(), 30, ''); ?></p>
 
 
+## 投稿のカテゴリ別で表示させたりCSS変更など
