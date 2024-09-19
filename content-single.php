@@ -1,9 +1,12 @@
 <div class="news">
-  <p class='title'><?php the_title(); ?></p>
-  <time class="time"><?php the_time('Y.m.d'); ?></time>
+  <div style="display: grid;">
+    <p class='title'><?php the_title(); ?></p>
+    <time class="time"><?php the_time('Y.m.d'); ?></time>
+  </div>
   <hr>
   <!-- 内容 -->
-  <div class="news-body">
+  <div>
+  <!-- <div class="news-body"> -->
     <!-- アピールポイント -->
     <div style="padding-bottom:30px;">
       <?php the_content(); ?>
