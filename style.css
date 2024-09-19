@@ -3060,23 +3060,23 @@ form
   margin: 0px 33px 0px 14px !important;
 }
 .news-category.info {
-  background-color: #fff;
-  border: 1px solid #232323; /* infoカテゴリ */
+  background-color: #6e97f2;
+  color: #fff;
 }
 
 .news-category.work {
-  background-color: #fff;
-  border: 1px solid #232323; /* workカテゴリ */
+  background-color: #39a39a;
+  color: #fff;
 }
 
 .news-category.press {
-  background-color: #fff;
-  border: 1px solid #232323; /* pressカテゴリ */
+  background-color: #dd6076;
+  color: #fff;
 }
 
 .news-category.event {
-  background-color: #fff;
-  border: 1px solid #232323; /* eventカテゴリ */
+  background-color: #f29d6e;
+  color: #fff;
 }
 .news-list {
   text-align: start !important;
@@ -4452,6 +4452,8 @@ tel {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column!important;
+    align-content: center;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -4472,11 +4474,12 @@ tel {
   }
 
   #shop .shops-item .shop-body {
-    position: absolute;
-    right: 4.5%;
-    bottom: -56px;
+    position: initial!important;
+    /* right: 4.5%;
+    bottom: -56px; */
     padding: 8px 13px;
-    width: 91%;
+    /* width: 91%; */
+    width: 100%;
     text-align: left;
     background-color: #fff;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.07);

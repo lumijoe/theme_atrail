@@ -260,7 +260,7 @@
               ?>
                   <li class="news-list">
                     <a class="news-link" href="<?php the_permalink(); ?>">
-                      <span class="news-body release"><?php the_time('Y.m.d'); ?></span>
+                      <span class="news-body release" style="color: #949494;"><?php the_time('Y.m.d'); ?></span>
                       <span class="news-category <?php
                                                   $categories = get_the_category();
                                                   if (! empty($categories)) {
